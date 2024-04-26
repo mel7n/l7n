@@ -37,7 +37,7 @@ L7N_2 = types.InlineKeyboardButton(text ="Programmer",url="t.me/g_4_q")
 def start(message):
 	photo = f"t.me/{message.from_user.username}"
 	tag = f"[{message.from_user.first_name}]({photo})"
-	text = f"*Hello* {tag}* To Bot Check IG 🐉 !*"
+	text = f"*Hello* {tag}* To Bot Check IG 🐉 !!*"
 	L7Nbut1 = types.InlineKeyboardMarkup()
 	L7Nbut1.add(L7N1)
 	L7Nbut1.add(L7N_2)
