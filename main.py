@@ -180,7 +180,7 @@ def Face(message,id):
    #   print(response.text)
 	 	if 'email_is_taken' in str(response.text):
 	 		good+=1
-	 		url = requests.get(f'https://qqqqqqqqqqqqqqqqqqqqqq-9849b2080c99.herokuapp.com/qredes/gmail/?email={email}@gmail.com').text
+	 		url = requests.get(f'https://gmail-check-3c5c631290c7.herokuapp.com/qredes/gmail/?email={email}@gmail.com').text
 	 		if "good" in url:
 	 			hunt+=1
 	 			he={'accept': '*/*',
